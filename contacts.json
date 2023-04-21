@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Jill",
+        "lastName": "Ourth",
+        "email": "jillo@gmail.com",
+        "favColor": "pink",
+        "birthday": "07/19/82"
+    },
+    "contact2": {
+        "firstName": "Darren",
+        "lastName": "Ourth",
+        "email": "dourth333@gmail.com",
+        "favColor": "green",
+        "birthday": "08/13/82"
+    },
+    "contact3": {
+        "firstName": "Marni",
+        "lastName": "Ourth",
+        "email": "marn.o@gmail.com",
+        "favColor": "orange",
+        "birthday": "02/09/84"
+    }
+}

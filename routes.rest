@@ -1,7 +1,7 @@
 GET http://localhost:8080/professional
 
 
-###
+### LOCAL
 GET http://localhost:8080/contacts
 ###
 GET http://localhost:8080/contacts/6442ea2f82968e0ada1da14d
@@ -10,3 +10,12 @@ GET http://localhost:8080/contacts/6442ea3d82968e0ada1da14e
 ###
 GET http://localhost:8080/contacts/6442ea4882968e0ada1da14f
 
+### RENDER
+
+GET https://cse341-w02.onrender.com/contacts
+###
+GET https://cse341-w02.onrender.com/contacts/6442ea2f82968e0ada1da14d
+###
+GET https://cse341-w02.onrender.com/contacts/6442ea3d82968e0ada1da14e
+###
+GET https://cse341-w02.onrender.com/contacts/6442ea4882968e0ada1da14f

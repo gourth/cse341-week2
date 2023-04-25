@@ -49,6 +49,7 @@ content-type: application/json
 
 ### DELETE CONTACT
 DELETE https://cse341-w02.onrender.com/contacts/6447324b751342b726294b9a HTTP/1.1
+content-type: application/json
 
 ### Local storage
 

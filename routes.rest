@@ -20,7 +20,10 @@ GET https://cse341-w02.onrender.com/contacts/6442ea3d82968e0ada1da14e
 ###
 GET https://cse341-w02.onrender.com/contacts/6442ea4882968e0ada1da14f
 
-### CREATE CONTACT
+
+### Render Links
+
+### CREATE CONTACT 
 POST https://cse341-w02.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
@@ -33,7 +36,7 @@ content-type: application/json
 }
 
 ### PUT CONTACT
-PUT https://cse341-w02.onrender.com/contacts6442ea2f82968e0ada1da14d HTTP/1.1
+PUT https://cse341-w02.onrender.com/contacts/6442ea2f82968e0ada1da14d HTTP/1.1
 content-type: application/json
 
 {
@@ -45,4 +48,33 @@ content-type: application/json
 }
 
 ### DELETE CONTACT
-DELETE http://localhost:8080/contacts/ HTTP/1.1
+DELETE https://cse341-w02.onrender.com/contacts/6447324b751342b726294b9a HTTP/1.1
+
+### Local storage
+
+### CREATE CONTACT 
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Lila",
+        "lastName": "Ourth",
+        "email": "lila123@gmail.com",
+        "favColor": "purple",
+        "birthday": "03/19/99"
+}
+
+### PUT CONTACT
+PUT http://localhost:8080/contacts/6442ea2f82968e0ada1da14d HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jill",
+        "lastName": "Ourth",
+        "email": "jilliour@yahoo.com",
+        "favColor": "turquoise",
+        "birthday": "07/08/82"
+}
+
+### DELETE CONTACT
+DELETE http://localhost:8080/contacts/6447324b751342b726294b9a HTTP/1.1
